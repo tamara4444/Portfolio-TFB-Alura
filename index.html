@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="shortcut icon" href="Imagenes/iconport.ico" type="image/x-icon">
+    <title>Portfolio TFB</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!--Menu Titulo-->
+    <div class="contenedor-header">
+        <header>
+            <div class="logotipo">
+                <a href="#">TAMY  (^･ｪ･^)</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">Inicio</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">Sobre mua</a></li>
+                    <li><a href="#skills" onclick="seleccionar()">Skills</a></li>
+                    <li><a href="#experiencia" onclick="seleccionar()">Experiencia</a></li>
+                    <li><a href="#proyectos" onclick="seleccionar()">Proyectos</a></li>
+                    <li><a href="#contacto" onclick="seleccionar()">Contacto</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-cat"></i>
+            </div>
+        </header>
+    </div>
+
+    <!--Inicio-->
+    <section id="inicio" class="inicio">
+        <div class="contenedor-banner">
+            <div class="contenedor-img">
+                <img src="Imagenes/yo.jpeg" alt="fotoyo">
+            </div>
+            <h1>Tamara Flores Burgos</h1>
+            <h2> Prevencionista de Riesgos  Aprendiz en Programación</h2>
+            <div class="redes">
+                <a href="https://github.com/tamara4444" target="_blank"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/tamara-flores-burgos-876600ba/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://www.instagram.com/talitacfb/?hl=es-la" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://app.tvtime.com/profile" target="_blank"><i class="fa-solid fa-film"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!--Sobre Mua-->
+    <section id="sobremi" class="sobremi">
+        <div class="contenido-seccion">
+            <h2>"Sobre mua"</h2>
+            <p><span>Me llamo Tamara y...</span>busco el equilibrio perfecto entre la lógica y la creatividad. Mi formación en prevención de riesgos me ha proporcionado una mente analítica, mientras que mi amor por el cine alimenta mi imaginación. Actualmente, estoy aprendiendo a programar e interiorizandome en la inteligencia artificial. Cabe mencionar que estoy disfrutando mucho del proceso. </p>
+
+        <div class="fila">
+            <!--Datos-->
+            <div class="col">
+                <h3>Datos Personales</h3>
+                <ul>
+                    <li>
+                        <strong>Cumpleaños</strong>
+                        15-03-1993
+                    </li>
+                    <li>
+                        <strong>Email</strong>
+                        tamaraflores4444@gmail.com
+                    </li>
+                    <li>
+                        <strong>Dirección</strong>
+                        Ictinos, Peñalolén.
+                    </li>
+                    <li>
+                        <strong>Nacionalidad</strong>
+                        Chilena
+                    </li>
+                </ul>
+            </div>
+
+            <!--Lo que me gusta-->
+            <div class="col">
+                <h3>Lo que me gusta...</h3>
+                <div class="contenedor-loquemegusta">
+                    <div class="gustar">
+                        <i class="fa-solid fa-tv"></i>
+                        <span>Series</span>
+                    </div>
+                    <div class="gustar">
+                        <i class="fa-solid fa-person-hiking"></i>
+                        <span>Trekking</span>
+                    </div>
+                    <div class="gustar">
+                        <i class="fa-solid fa-clapperboard"></i>
+                        <span>Cine</span>
+                    </div>
+                    <div class="gustar">
+                        <i class="fa-solid fa-earth-americas"></i>
+                        <span>Viajes</span>
+                    </div>
+                    <div class="gustar">
+                        <i class="fa-solid fa-robot"></i>
+                        <span>I.A.</span>
+                    </div>
+                    <div class="gustar">
+                        <i class="fa-solid fa-gamepad"></i>
+                        <span>Videojuegos</span>
+                    </div>
+                    <div class="gustar">
+                        <i class="fa-sharp fa-solid fa-file-excel"></i>
+                        <span>Excel</span>
+                    </div>
+                    <div class="gustar">
+                        <i class="fa-solid fa-book-bookmark"></i>
+                        <span>Lectura</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+ <!-- Habilidades -->
+ <section class="skills" id="skills">
+    <div class="contenido-seccion">
+        <h2>Skills</h2>
+        <div class="fila">
+            <!-- Conocimientos -->
+            <div class="col">
+                <h3>Conocimientos</h3>
+                <div class="skill">
+                    <span>Excel</span>
+                    <div class="barra-skill">
+                        <div class="progreso">
+                            <span>81%</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <span>HTML/CSS</span>
+                    <div class="barra-skill">
+                        <div class="progreso">
+                            <span>57%</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <span>Prevención de Riesgos</span>
+                    <div class="barra-skill">
+                        <div class="progreso">
+                            <span>72%</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <span>I.A.</span>
+                    <div class="barra-skill">
+                        <div class="progreso">
+                            <span>54%</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <span>Digitación</span>
+                    <div class="barra-skill">
+                        <div class="progreso">
+                            <span>68%</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Aptitudes -->
+            <div class="col">
+                <h3>Aptitudes</h3>
+                <div class="skill">
+                    <span>Empatía</span>
+                    <div class="barra-skill">
+                        <div class="progreso">
+                            <span>91%</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <span>Creatividad</span>
+                    <div class="barra-skill">
+                        <div class="progreso">
+                            <span>89%</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <span>Compromiso</span>
+                    <div class="barra-skill">
+                        <div class="progreso">
+                            <span>99%</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <span>Responsabilidad</span>
+                    <div class="barra-skill">
+                        <div class="progreso">
+                            <span>95%</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <span>Trabajo en equipo</span>
+                    <div class="barra-skill">
+                        <div class="progreso">
+                            <span>93%</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--Experiencia-->
+    <section id="experiencia" class="experiencia">
+        <div class="contenido-seccion">
+            <h2>Experiencia</h2>
+            <div class="fila">
+                <div class="col izquierda">
+                    <h3>Educacion</h3>
+                    <div class="item izq">
+                        <h4>Front End</h4>
+                        <span class="universidad">Alura - Oracle ONE</span>
+                        <span class="fecha"> 2024 </span>
+                        <p>Formación en Desarrollo Front-End, Cursando – Última etapa. Entregando conocimientos técnicos y de habilidades blandas en le proceso.</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                        <div class="item izq">
+                            <h4>Prevencion de Riesgos</h4>
+                            <span class="universidad">Inacap</span>
+                            <span class="fecha"> 2012-2015 </span>
+                            <p>Sólida formación en identificación y evaluación de riesgos laborales. Experiencia en la aplicación de medidas preventivas en diversos entornos organizacionales.</p>
+                            <div class="conectori">
+                                <div class="circuloi"></div>
+                            </div>
+                    </div>
+                        <div class="item izq">
+                            <h4>Junior en .NET</h4>
+                            <span class="universidad">FCM - Universidad de Chile</span>
+                            <span class="fecha"> 2016 </span>
+                            <p>Completé un curso introductorio en desarrollo .NET, donde adquirí los conocimientos básicos de C# para construir aplicaciones simples y comprender los conceptos fundamentales de la plataforma .NET.</p>
+                            <div class="conectori">
+                                <div class="circuloi"></div>
+                            </div>
+                    </div>
+                </div>
+
+                <div class="col derecha">
+                    <h3>Trabajo</h3>
+                    <div class="item der">
+                        <h4>Activación y Monitoreo</h4>
+                        <span class="universidad">Iconstruye</span>
+                        <span class="fecha"> 2019-2024 </span>
+                        <p>Gestión en Módulo "Monitor de Obras". Actualización etapa de construcción en cuanto a Obras inmobiliarias, mineras, particulares y públicas, para uso en plataforma iconstruye, ya sea por constructoras o proveedores clientes de la misma.</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                        <div class="item der">
+                            <h4>Soporte</h4>
+                            <span class="universidad">Esing</span>
+                            <span class="fecha"> 2017-2018 </span>
+                            <p>Soporte técnico en instalación de certificados digitales, avanzados y simples. Soporte remoto para gestiones de certificados y problemas de uso con los mismos. </p>
+                            <div class="conectord">
+                                <div class="circulod"></div>
+                            </div>
+                        </div>
+                        <div class="item der">
+                            <h4>Prevencionista de Riesgos</h4>
+                            <span class="universidad">TVN - Canal de televisión</span>
+                            <span class="fecha"> 2014-2015 </span>
+                            <p>Responsable de velar por la seguridad y orden de las políticas de prevención de riesgos laborales, impuestas por la empresa. Entrega de elementos de protección personal, inducciones parciales, según labor a realizar de empresas externas, inspecciones esporádicas del recinto.</p>
+                            <div class="conectord">
+                                <div class="circulod"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <!--Portafolio -->
+    <section id="proyectos" class="proyectos">
+       <div class="contenido-seccion">
+            <h2>Proyectos</h2>
+            <div class="galeria">
+                <div class="programa">
+                    <a href="https://tamara4444.github.io/Encriptador-texto-TFB/" target="_blank">
+                    <img src="Imagenes/cat.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Encriptador de texto</h3>
+                        <p>Encriptar/Desencriptar contraseñas varias</p>
+                    </div>
+                    </a>
+                </div>
+                <div class="programa">
+                    <a href="https://docs.google.com/document/d/1xPK8KmQxoNt43EQLG7ftEdaeNtmi8-uQ/edit" target="_blank">
+                    <img src="Imagenes/prev.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Condominio Bello Centro</h3>
+                        <p>Plan de Emergencia en seguridad, para catástrofes en condominio respectivo</p>
+                    </div>
+                    </a>
+                </div>
+            </div>
+       </div>
+    </section>
+
+    <!--Contacto-->
+    <section id="contacto" class="contacto">
+        <div class="contenido-seccion">
+            <h2>Contáctame</h2>
+            <div class="fila">
+                <!--Formulario-->
+                <div class="col">
+                    <form action="https://formspree.io/f/xrbgyyzz" method="POST" onsubmit="return validarFormulario(event)">
+                        <div>
+                            <input type="text" name="nombre" id="nombre" placeholder="Nombre" required>
+                            <span class="error" id="error-nombre"></span>
+                        </div>
+                        <div>
+                            <input type="email" name="email" id="email" placeholder="Email" required>
+                            <span class="error" id="error-email"></span>
+                        </div>
+                        <div>
+                            <input type="text" name="asunto" id="asunto" placeholder="Asunto" required>
+                            <span class="error" id="error-asunto"></span>
+                        </div>
+                        <div>
+                            <textarea name="mensaje" id="mensaje" cols="30" rows="10" placeholder="Mensaje" required></textarea>
+                            <span class="error" id="error-mensaje"></span>
+                        </div>
+                        <button type="submit">Enviar <i class="fa-solid fa-cat"></i></button>
+                    </form>
+                          
+                    
+                </div>
+            <!--Mapa-->
+            <div class="col">
+                <img src="Imagenes/map.png" alt="">
+                <div class="info">
+                    <ul>
+                        <li>
+                            <i class="fa-solid fa-location-crosshairs"></i>
+                            Peñalolén,Chile.PLANETA TIERRA
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-shield-cat"></i>
+                            +569 3692 1258
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-paw"></i>
+                            tamaraflores4444@gmail.com
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    </section>
+
+    <!--footer-->
+    <footer>
+        <a href="#inicio" class="arriba">
+            <i class="fa-solid fa-turn-up"></i>
+        </a>
+        <div class="redes">
+            <a href="#"><i class="fa-brands fa-github"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-solid fa-film"></i></a>
+        </div>
+        <p>Desarrolado por Tamara Flores Burgos</p>
+        <p>2024</p>
+
+    </footer>
+
+   <script src="script.js"></script>
+
+
+</body>
+</html>
