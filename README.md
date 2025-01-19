@@ -39,3 +39,9 @@ Este proyecto forma parte de un **challenge** del programa **Alura/ONE**.
 ---
 
 ¿Tienes alguna consulta? ¡Contactáme a través del formulario incluido en el portafolio! 😊
+
+## 🚀 Deploy
+
+La aplicación está disponible en el siguiente enlace:  
+[Portfolio - Ver](https://tamara4444.github.io/Portfolio-TFB-Alura/#inicio)
+
